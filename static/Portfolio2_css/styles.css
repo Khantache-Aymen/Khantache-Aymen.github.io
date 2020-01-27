@@ -91,7 +91,7 @@ b.max-bold{ font-weight: 700; }
 .section .heading{ margin-bottom: 60px; display: inline-block; }
 
 .section .heading:before{ content:''; height: 10px; width: 50px; border-radius: 5px;
-	margin: 0 auto 20px; display: block; background: rgb(0, 153, 204); }
+	margin: 0 auto 20px; display: block; background: rgba(124, 62, 62, 0.918); }
 	
 .margin-t-10{ margin-top: 10px; }
 .margin-t-30{ margin-top: 30px; }
@@ -103,7 +103,7 @@ b.max-bold{ font-weight: 700; }
 .margin-tb-30{ margin-top: 30px; margin-bottom: 30px; }
 .margin-tb-50{ margin-top: 50px; margin-bottom: 50px; }
 
-.font-yellow{ color: rgb(0, 153, 204); }
+.font-yellow{ color: rgb(67, 98, 165); }
 
 .font-semi-white{ color: #ddd; }
 
@@ -140,9 +140,9 @@ b.max-bold{ font-weight: 700; }
 
 .intro{ color: #fff; }
 
-.intro .profile-img{ max-width: 400px; border-radius: 5px; overflow: hidden; }
+.intro .profile-img{ max-width: 400px; border-radius: 20px; overflow: hidden; }
 
-.intro .information > li{ display: block; margin: 5px 0; }
+.intro .information > li{ display: block; margin: 150px 150px; }
 
 .intro .social-icons > li > a{ height: 35px; line-height: 35px; width: 35px; border-radius: 20px; 
 	overflow: hidden; z-index: 1; position: relative; margin: 0 5px 5px; text-align: center;
@@ -156,7 +156,7 @@ b.max-bold{ font-weight: 700; }
 .intro .social-icons > li > a:hover:after{ -webkit-transform: scale(1); transform: scale(1); }
 
 
-.intro .downlad-btn{ padding: 15px 30px; border-radius: 4px; float: right; margin-top: 30px;
+.intro .downlad-btn{ padding: 15px 30px; border-radius: 15px; float: right; margin-top: 30px;
 	box-shadow: inset 0 0px 4px rgba(129, 34, 58, 0.7); background: rgba(124, 38, 57, 0.8); color: #fff; 
 	-webkit-transition: all .2s ease; transition: all .2s ease; }
 
@@ -219,7 +219,7 @@ b.max-bold{ font-weight: 700; }
 .education-wrapper{ position: relative; overflow: hidden; text-align: center; }
 
 .education-wrapper:after{ content:''; position: absolute; top: 8px; bottom: 0; left: 50%;
-	margin-left: -1px; width: 2px; background: #333; }
+	margin-left: -1px; width: 2px; background: rgb(156, 58, 58); }
 
 .education-wrapper .education{ width: 50%; clear: both; position: relative; margin-top: -30px; }
 
@@ -297,3 +297,14 @@ b.max-bold{ font-weight: 700; }
 
 .copyright{ text-align: center; padding: 30px 0; background: #28023D; }
 
+
+.margin-nta3na {
+	margin-bottom: 30px;
+}
+.police {
+	font-family: 'Times New Roman', Times, serif;
+}
+.size {
+	font-size: 20px;
+
+}
