@@ -100,7 +100,7 @@ b.max-bold{ font-weight: 700; }
 .margin-b-30{ margin-bottom: 30px; }
 .margin-b-50{ margin-bottom: 50px; }
 
-.margin-tb-30{ margin-top: 30px; margin-bottom: 30px; }
+.margin-tb-30{ margin-top: 45px; margin-bottom: 45px; }
 .margin-tb-50{ margin-top: 50px; margin-bottom: 50px; }
 
 .font-yellow{ color: rgb(67, 98, 165); }
@@ -121,7 +121,7 @@ b.max-bold{ font-weight: 700; }
 	z-index: 1;background-image: url(../../static/images/slider-4-1920x600.jpg); }
 
 .intro-section:before{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; left: 0; 
-	right: 0; background: rgba(0,0,0, .2); }
+	right: 0; background: rgba(27, 27, 27, 0.2); }
 
 	
 /* HEADER */
@@ -138,7 +138,7 @@ b.max-bold{ font-weight: 700; }
 
 /* INTRO */
 
-.intro{ color: #fff; }
+.intro{ color: rgb(255, 255, 255); }
 
 .intro .profile-img{ max-width: 400px; border-radius: 20px; overflow: hidden; }
 
@@ -171,7 +171,7 @@ b.max-bold{ font-weight: 700; }
 
 .counter{ position: relative; }
 	
-.counter .title{ color: rgb(0, 153, 204); text-align: right; margin-right: 130px; }
+.counter .title{ color: rgb(129, 34, 0.4); text-align: right; margin-right: 130px; }
 
 .counter .desc{ position: absolute; bottom: 4px; right: 0px; width: 110px; }
 
@@ -181,7 +181,7 @@ b.max-bold{ font-weight: 700; }
 5. EXPERIENCE SECTION
 --------------------------------- */
 
-.experience-section{ background: #FAF5FC; }
+.experience-section{ background: rgba(0, 0, 0, 0); }
 
 .experience .list > li{ display: block; position: relative; margin-bottom: 10px; }
 
@@ -246,7 +246,7 @@ b.max-bold{ font-weight: 700; }
 	z-index: 1; background-image: url(../../images/slider-4-1920x600.jpg); color: #fff; }
 
 .quoto-section:before{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; left: 0; 
-	right: 0; background: rgba(0,0,0, .8); }
+	right: 0; background: rgba(0, 0, 0, 0); }
 	
 .quoto-section .icon{ margin-bottom: 20px; height: 40px; width: 40px; line-height: 40px; 
 	border-radius: 30px; background: rgb(0, 153, 204); color: #fff; }
@@ -307,4 +307,7 @@ b.max-bold{ font-weight: 700; }
 .size {
 	font-size: 20px;
 
+}
+.color{
+	background-color:rgba(231, 72, 223, 0.383);
 }
